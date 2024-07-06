@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 // class Opponent
 class Player {
@@ -141,7 +142,6 @@ do {
                 process.exit();
             }
             if (num <= 0) {
-                console.log("Wolrd");
                 o1.fuelDecrease();
                 console.log(`${p1.name} Fuel is  ${p1.fuel}`);
                 console.log(`${o1.name} Fuel is  ${o1.fuel}`);
